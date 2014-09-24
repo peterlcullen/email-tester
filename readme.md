@@ -1,9 +1,11 @@
 this is a small job which sends html emails using your gmail account.  it's meant for testing...
 
-`$ git clone https://github.com/peterlcullen/email-tester`
-`$ npm install`
-`$ cp config.js-dist config.js`
-`$ mkdir emails`
+```
+$ git clone https://github.com/peterlcullen/email-tester
+$ npm install
+$ cp config.js-dist config.js
+$ mkdir emails
+```
 
 then....
 
@@ -11,4 +13,6 @@ then....
 - add any html emails you want to send into the `emails/` folder
 
 to run:
-`$ node app`
+```
+$ node app
+```
