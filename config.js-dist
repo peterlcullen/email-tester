@@ -1,0 +1,9 @@
+var config = {
+	"gmail": {
+		"email": "YOUR-GMAIL-ADDRESS",
+		"password": "YOUR-GMAIL-PASSWORD"
+	},
+	"recipientEmail": "ADD-RECIPIENT-EMAIL"
+};
+
+module.exports = config;
