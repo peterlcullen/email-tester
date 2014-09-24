@@ -2,6 +2,7 @@ this is a small job which sends html emails using your gmail account.  it's mean
 
 ```
 $ git clone https://github.com/peterlcullen/email-tester
+$ cd email-tester
 $ npm install
 $ cp config.js-dist config.js
 $ mkdir emails
