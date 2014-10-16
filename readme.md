@@ -1,7 +1,8 @@
 this is a small job which sends html emails using your gmail account.  it's meant for testing...
 
+clone the repo, and then
+
 ```
-$ git clone https://github.com/peterlcullen/email-tester
 $ cd email-tester
 $ npm install
 $ cp config.js-dist config.js
