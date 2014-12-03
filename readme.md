@@ -11,7 +11,6 @@ $ mkdir emails
 
 then....
 
-- update config.js with your email info...
 - add any html emails you want to send into the `emails/` folder
 
 to run:
