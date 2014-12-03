@@ -65,13 +65,17 @@ var emailCaller = function (fileName) {
 			return;
 		}
 
-		console.log("sending " + fileName);
-
 		transporter.sendMail({
 			from: config.gmail.email,
 			to: config.recipientEmail,
 			subject: fileName,
 			html: data
+		}, function(error, info) {
+			if(error) {
+				console.error(error);
+			} else {
+				console.log("sent " + fileName);
+			}
 		});
 	});
 };
