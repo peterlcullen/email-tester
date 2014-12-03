@@ -5,7 +5,6 @@ clone the repo, and then
 ```
 $ cd email-tester
 $ npm install
-$ cp config.js-dist config.js
 $ mkdir emails
 ```
 
